@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+  <test name="Register user with valid data">
+      <classes>
+          <class name="testcases.TC01_Register">
+              <methods>
+                  <include name="registerWithValidData"/>
+              </methods>
+          </class>
+      </classes>
+        </test>
+    <test name="Loginwith valid data">
+       <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="validateLoginWithValidEmailAndPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Reset password">
+        <classes>
+            <class name="testcases.TC03_ResetPassword">
+                <methods>
+                    <include name="validateResetPasswordForExistEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="search for random products">
+        <classes>
+            <class name="testcases.TC04_SearchRandomProducts">
+                <methods>
+                    <include name="validateSearchingRandomProducts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="switch currency">
+        <classes>
+            <class name="testcases.TC05_SwitchCurrency">
+                <methods>
+                    <include name="validateSearchingRandomProducts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="hover then select random categories ">
+        <classes>
+            <class name="testcases.TC06_SelectDifferentCategories">
+                <methods>
+                    <include name="validateSelectRandomCategor"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="select random category then select sub-category">
+        <classes>
+            <class name="testcases.TC06_SelectDifferentCategories">
+                <methods>
+                    <include name="validateSelectRandomCategorAndOpenSubCategories"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="add products to cart">
+        <classes>
+            <class name="testcases.TC07_Shopping">
+                <methods>
+                    <include name="validateAddingDifferentProductsToShoppingCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="add products to wishlist">
+        <classes>
+            <class name="testcases.TC07_Shopping">
+                <methods>
+                    <include name="validateAddingDifferentProductsToWishlist"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="add products to be compared">
+        <classes>
+            <class name="testcases.TC07_Shopping">
+                <methods>
+                    <include name="validateAddingDifferentProductsToCompareList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="add products to cart then checkout">
+        <classes>
+            <class name="testcases.TC08_EndToEnd">
+                <methods>
+                    <include name="validateAddingDifferentProductsToCartAndCheckOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
