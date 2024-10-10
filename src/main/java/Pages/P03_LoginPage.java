@@ -41,7 +41,6 @@ public class P03_LoginPage {
         this.email.sendKeys(email);
         Thread.sleep(3000);
         this.continueButton.click();
-
     }
     public String getSuccessAlert() {
         return successAlert.getText();

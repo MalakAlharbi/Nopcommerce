@@ -31,7 +31,7 @@ public class TC02_Login extends TestBase {
     }
 
     @Test(priority = 2, description = "login to website with randomly invalid credentials")
-    public void validateLoginWithInvalidEmailAndPassword() {
+    public void validateLoginWithInvalidEmailAndPassword() throws InterruptedException {
         homePage=new P01_HomePage(driver);
         homePage.clickLoginButton();
         loginPage=new P03_LoginPage(driver);
@@ -43,7 +43,7 @@ public class TC02_Login extends TestBase {
     }
 
     @Test(priority = 3, description = "login to website with invalid email and valid password")
-    public void validateLoginWithInvalidEmailAndValidPassword() {
+    public void validateLoginWithInvalidEmailAndValidPassword() throws InterruptedException {
         homePage=new P01_HomePage(driver);
         homePage.clickLoginButton();
         loginPage=new P03_LoginPage(driver);
@@ -55,7 +55,7 @@ public class TC02_Login extends TestBase {
     }
 
     @Test(priority = 4, description = "login to website with valid email and invalid password")
-    public void validateLoginWithValidEmailAndInvalidPassword() {
+    public void validateLoginWithValidEmailAndInvalidPassword() throws InterruptedException {
         homePage=new P01_HomePage(driver);
         homePage.clickLoginButton();
         loginPage=new P03_LoginPage(driver);

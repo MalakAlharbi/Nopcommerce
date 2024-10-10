@@ -22,21 +22,16 @@ public class P01_HomePage {
     //login locator
     @FindBy(xpath = "//a[text()='Login']")
     WebElement loginButton;
-    @FindBy(xpath = "(//a)[7]")
-    WebElement logoutButton;
 
     //step2: define action methods
     public void clickRegisterButton() throws InterruptedException {
         this.myAccountDropDown.click();
-        Thread.sleep(4000);
+        Thread.sleep(2000);
         this.registerButton.click();
     }
-    public void clickLoginButton(){
+    public void clickLoginButton() throws InterruptedException {
         this.myAccountDropDown.click();
+        Thread.sleep(2000);
         this.loginButton.click();
-    }
-    public void clickLogoutButton(){
-        this.myAccountDropDown.click();
-        this.logoutButton.click();
     }
 }

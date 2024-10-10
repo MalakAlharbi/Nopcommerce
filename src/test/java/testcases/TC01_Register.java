@@ -36,9 +36,6 @@ public class TC01_Register extends TestBase {
         String message = registerPage.getSuccessMessage();
         System.out.println(message); // Print the success message
         assertEquals(message, "Your Account Has Been Created!");
-
-        registerPage.clickOnContinueButton();
-        homePage.clickLogoutButton();
     }
 
     @Test(priority = 2, description = "register with invalid data ")

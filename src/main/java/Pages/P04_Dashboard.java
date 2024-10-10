@@ -64,7 +64,7 @@ public class P04_Dashboard {
     public void selectCurrency() throws InterruptedException {
         Thread.sleep(3000);
         this.currencyDropList.click();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         RandomGenerator.hoverAndClickRandomCategory(currencyList);
     }
 
@@ -108,7 +108,7 @@ public class P04_Dashboard {
     }
 
     public void shoppingCartButton() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         this.shoppingCartBtn.click();
     }
 }
