@@ -10,6 +10,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Local testing execution example](#Local testing execution example)
 
 ## Introduction
 
@@ -17,22 +18,36 @@ Nopcommerce is a store application that provides various shopping services and f
 
 ## Features
 
-User Account Management
-1-Create and Manage Accounts: Users can register, log in, and update their profile information.
-2-Password Recovery: Users can reset their passwords via email verification.
+# User Account Management
+## 1. Create and Manage Accounts
+Users can register, log in, and update their profile information.
 
-Product Browsing
-1-Search Products: Users can search for products using keywords and filters.
-2-Category Navigation: Browse products by categories for easier discovery.
-3-Product Details: View detailed information about each product, including images, descriptions, and pricing.
+## 2. Password Recovery
+Users can reset their passwords via email verification.
 
-Shopping Cart and Checkout
-1-Add to Cart: Users can easily add products to their shopping cart.
-2-View Cart: Users can review items in their cart, update quantities, or remove items.
-3-Secure Checkout Process: Users can complete their purchases with a streamlined checkout process.
+# Product Browsing
+## 1. Search Products
+Users can search for products using keywords and filters.
 
-Currency Selection
-1-Multi-Currency Support: Users can select their preferred currency for product pricing and checkout.
+## 2. Category Navigation
+Browse products by categories for easier discovery.
+
+## 3. Product Details
+View detailed information about each product, including images, descriptions, and pricing.
+
+# Shopping Cart and Checkout
+## 1. Add to Cart
+Users can easily add products to their shopping cart.
+
+## 2. View Cart
+Users can review items in their cart, update quantities, or remove items.
+
+## 3. Secure Checkout Process
+Users can complete their purchases with a streamlined checkout process.
+
+# Currency Selection
+## 1. Multi-Currency Support
+Users can select their preferred currency for product pricing and checkout.
 
 ## Installation
 
@@ -55,7 +70,7 @@ To set up the Nopcommerce application locally, follow these steps:
 
 ### Local testing execution example
 
-![Local testing execution example](bandicam%202024-10-09%2022-52-30-589.mp4)
+![Local testing execution example](excution.mp4)
 
 ## Contributing
 * We welcome contributions from the community. To contribute to Nopcommerce, follow these steps:
