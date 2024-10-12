@@ -68,10 +68,6 @@ To set up the Nopcommerce application locally, follow these steps:
 ## Usage
 * User Guide: Refer to the User Guide for detailed information on how to use the Nopcommerce application.
 
-### Local testing execution example
-
-![Local testing execution example](excution.mp4)
-
 ## Contributing
 * We welcome contributions from the community. To contribute to Nopcommerce, follow these steps:
 
